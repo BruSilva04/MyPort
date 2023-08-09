@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BoxIcons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap" rel="stylesheet">
+  <!-- MyCSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- favicon -->
+  <title>My Portifolio</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <h1>BrunoSilva</h1>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre mim</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> Conhecimentos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> Fale comigo</a></li>
+            </ul>
+        </div>
+        <div class="nav-list">
+          <ul>
+              <li class="nav-item"><a href="https://github.com/BruSilva04" target="_blank" id="social1" class="nav-link"><i class="fa-brands fa-github"></i></a></li>
+              <li class="nav-item"><a href="https://www.linkedin.com/in/bruno-oliveira-da-silva-197455211/" id="social2" target="_blank" class="nav-link"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li class="nav-item"><a href="#" id="social3" class="nav-link"> <i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+      </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="/img/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Sobre mim</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link"> Conhecimentos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link"> Fale comigo</a></li>
+        </ul>
+
+        <div class="nav-list2">
+          <ul>
+              <li class="nav-item"><a href="https://github.com/BruSilva04" target="_blank" id="social1" class="nav-link"><i class="fa-brands fa-github"></i></a></li>
+              <li class="nav-item"><a href="https://www.linkedin.com/in/bruno-oliveira-da-silva-197455211/" id="social2" target="_blank"
+                class="nav-link"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li class="nav-item"><a href="#" id="social3" class="nav-link"> <i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+      </div>
+    </div>
+</header>
+  
+
+  <main>
+    <section id="home">
+      <div class="home-container">
+        <div>
+        <h4>HELLO WORLD</h4>
+        <h1>Eu sou Bruno,</h1>
+        <p data-aos="fade-right">Desenvolvedor Web Front-end.</p>
+        <br>
+        <button class="btn">Fale comigo</button>
+      </div>
+        <div>
+          <div class="home-inner">
+          <img class="img-home" src="/img/MeuLogo.png" alt="CodigoSemantico"> 
+        </div>
+        </div>
+      
+      </div>
+    </section>
+    <section id="Sobre-mim">
+      <div class="sobre-mim">
+        <img src="./img/eu.jpg" alt="MyImg">
+        <div class="sobre-mim-inner">
+          <h1>Sobre mim</h1>
+          <p>Meu chamo Bruno Oliveira da Silva, no momento cursando Tecnologia da Informação no Senac e sou        desenvolvedor web Front-end.
+          Desenvolvo páginas e sistemas web como landpage, E-commerce entre outros. Hoje na área de desenvolvimento vivo o aprendizado continuo, focando em tecnologias JavaScript. Busco oportunidades no mercado como dev e, em um futuro próximo, viso me tornar um desenvolvedor Full Stack.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="Projetos">
+      <div class="Projetos-container">
+        <header>
+          <h1>Projetos</h1>
+        </header>
+        <div class="content" data-aos="fade-right" data-aos-duration="2000">
+          <div class="cards">
+            <div class="card">
+              <h3>Riso Odonto</h3>
+              <div class="img-projeto">
+                <img src="./img/Site1.png" alt="MeuSite">
+                <div class="btn-projeto">
+                  <a href="https://github.com/BruSilva04/ProjetoOdonto" title="repositorio" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://riso-odonto.netlify.app/" alt="site" target="_blank"><i class="fa-regular fa-eye"></i></a>
+                </div>
+              </div>
+              <p>Projeto desenvolvido no Senac de uma clinica odontologica para marcação de consultas e exame</p>
+              <p>HTML - CSS - JS</p>
+            </div>
+            <div class="card">
+              <h3>Meu Portifolio</h3>
+              <div class="img-projeto">
+                <img src="./img/Port.png" alt="MyPortifolio">
+                <div class="btn-projeto">
+                  <a href="https://github.com/BruSilva04/ProjetoOdonto" title="repositorio" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://riso-odonto.netlify.app/" alt="site" target="_blank"><i class="fa-regular fa-eye"></i></a>
+                </div>
+              </div>
+              <p>Projeto desenvolvido para colocar em pratica meu aprendizado e para mostrar um pouco sobre mim e meus conhecimentos</p>
+              <p>HTML - CSS - JS</p>
+            </div>
+            <div class="card-3">
+              <h3>Em breve</h3>
+              <div class="img-projeto">
+                <!-- <img src="" alt="MeuSite"> -->
+              </div>
+              <p>Em desenvolvimento, em breve mais projetos.</p>
+              <!-- <p>HTML - CSS - JS</p> -->
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section id="Conhecimentos">
+      <div class="conhecimento-container">
+        <h1>Conhecimentos</h1>
+        <div class="content">
+          <div class="cards-conhecimento">
+            <div class="card-conhecimento">
+              <p><i class="fa-brands fa-html5"></i></p>
+              <h4>HTML5</h4>
+              <p>HTML5 é uma linguagem de marcação de hipertexto, que usamos para marcar os elementos da página e construí-la.</p>
+            </div>
+            <div class="card-conhecimento">
+              <p><i class="fa-brands fa-css3-alt" style="color: rgb(35, 81, 206);"></i></i></p>
+              <h4>CCS3</h4>
+              <p>CSS3 é uma linguagem de estilo usada para descrever a apresentação dos elementos da página os estilizando.</p>
+            </div>
+            <div class="card-conhecimento">
+              <p><i class="fa-brands fa-js" style="color: yellow;"></i></i></p>
+              <h4>JavaScript</h4>
+              <p>JavaScript é uma linguagem de programação interpretada usada no desenvolvimento web para descrever funcionalidades e comportamentos da página.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Fale-comigo">
+      <div class="fale-comigo-container">
+        <div class="fale-comigo-inner">
+          <h1>Fale comigo!</h1>
+          <p><i class="fa-regular fa-envelope"></i> silvabrunin503@gmail.com</p>
+          <p><i class="fa-solid fa-mobile-screen"></i> +55 11 97968-2022</p>
+          <button class="btn-fale-comigo"><i class="fa-brands fa-whatsapp"></i> WHATSAPP</button>
+        </div>
+        <div class="img-fale-comigo"> 
+          <img src="img-fale-comigo" alt="">
+        </div>
+      </div>
+      <hr style="width: 65%; margin-left: 18rem ;">
+      <footer>
+        <div class="footer-container">
+          <div class="footer">
+            <h1>BrunoSilva</h1>
+            <p>&copy;2023 por Bruno Silva</p>
+            <p>Todos os direitos reservados</p>
+          </div>
+          <div class="footer-inner">
+            <ul class="footer-sociais" >
+              <li><a href="https://github.com/BruSilva04" class="social1" target="_blank"><i class="fa-brands fa-github" ></i></a></li>
+              <li><a href="https://www.linkedin.com/in/bruno-oliveira-da-silva-197455211/" class="social2" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="#" class="social3" target="_blank"><i class="fa-brands fa-instagram" ></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+
+
+<!-- scripts -->
+<!-- aos -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script src="./js/script.js"></script>
+ <!-- jquery -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+ <script src="/js/script.js"></script>
+</body>
+</html>
